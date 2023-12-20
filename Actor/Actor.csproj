@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Description>Library for generating voice through Bouyomichan and VOICEVOX</Description>
+        <RepositoryUrl>https://github.com/usagiga/kaeru</RepositoryUrl>
+        <Company>usagiga</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <Authors>usagiga</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Configurations\" />
+    </ItemGroup>
+
+</Project>
