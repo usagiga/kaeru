@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otama.Tests", "Otama.Tests\Otama.Tests.csproj", "{B11C97B6-16F7-4ADF-8B51-BB20E864DF61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fetcher.Tests", "Fetcher.Tests\Fetcher.Tests.csproj", "{1A22F7E6-2C0B-4C6F-88CF-A40567DC24DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B11C97B6-16F7-4ADF-8B51-BB20E864DF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11C97B6-16F7-4ADF-8B51-BB20E864DF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11C97B6-16F7-4ADF-8B51-BB20E864DF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A22F7E6-2C0B-4C6F-88CF-A40567DC24DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A22F7E6-2C0B-4C6F-88CF-A40567DC24DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A22F7E6-2C0B-4C6F-88CF-A40567DC24DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A22F7E6-2C0B-4C6F-88CF-A40567DC24DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
