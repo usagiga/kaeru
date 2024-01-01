@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Authors>usagiga</Authors>
+        <Description>Library for fetching comments from Twitch and YouTube Live</Description>
+        <RepositoryUrl>https://github.com/usagiga/kaeru</RepositoryUrl>
+        <Company>usagiga</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Configurations\" />
+    </ItemGroup>
+
+</Project>

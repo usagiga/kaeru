@@ -18,4 +18,8 @@
       <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Configurations\" />
+    </ItemGroup>
+
 </Project>
