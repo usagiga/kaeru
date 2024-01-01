@@ -6,7 +6,6 @@
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Client</RootNamespace>
         <AssemblyName>Kaeru</AssemblyName>
         <IsPackable>false</IsPackable>
         <Company>Usagiga</Company>
