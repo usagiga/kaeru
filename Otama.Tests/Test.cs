@@ -2,7 +2,7 @@ namespace Otama;
 
 public class Test
 {
-    [Fact (DisplayName = "To test running xUnit correctly")]
+    [Fact(DisplayName = "To test running xUnit correctly")]
     public void ExampleTest()
     {
         var expected = "Hello, World";
