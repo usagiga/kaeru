@@ -6,12 +6,12 @@
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Client</RootNamespace>
         <AssemblyName>Kaeru</AssemblyName>
         <IsPackable>false</IsPackable>
         <Company>Usagiga</Company>
         <Product>Kaeru</Product>
         <AssemblyVersion>1.0.0</AssemblyVersion>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

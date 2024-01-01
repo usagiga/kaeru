@@ -1,4 +1,4 @@
-﻿namespace Client;
+﻿namespace Otama;
 
 partial class Form1
 {

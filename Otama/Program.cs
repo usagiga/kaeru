@@ -1,4 +1,4 @@
-namespace Client;
+namespace Otama;
 
 static class Program
 {

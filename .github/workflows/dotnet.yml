@@ -1,0 +1,30 @@
+﻿name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+    runs-on: ubuntu-latest
+    steps:
+      # Initializing Build Environments
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.x
+          cache: true
+          cache-dependency-path: '**/packages.lock.json'
+
+      # Run build
+      - name: Build
+        run: dotnet build /p:EnableWindowsTargeting=true
+
+      # Run test
+      - name: Test
+        run: dotnet test /p:EnableWindowsTargeting=true
